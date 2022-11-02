@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+
+body{
+  min-height: 100vh;
+  background-color: #E5E5E5;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.list-group-item{
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.btn{
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper{
+  min-height: 100vh;
+}
+
+input[type="range"] {
+  -webkit-appearance:none !important;
+  height: 2px;
+  background: #14213D;
+  border: none;
+  outline: none;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    width: 1em;
+    height:1em;
+    background: #14213D;
+    border: 2px solid #14213D;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background: #14213D;
+  }
+
+::-webkit-input-placeholder {
+  font-size: 1.5em;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+     font-size: 1.5em;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+     font-size: 1.5em;
+}
+
+/* Overriding styles */
+
+::-webkit-input-placeholder {
+  font-size: 1.5em!important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+     font-size: 1.5em!important;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+     font-size: 1.5em!important;
 }

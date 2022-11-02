@@ -1,0 +1,15 @@
+$theme-colors: (
+  "primary": #FCA311,
+  "secondary": #E5E5E5,
+  "info": #14213D,
+  "dark":#000000,
+  "light":#ffffff
+
+);
+$component-active-bg:         #14213D !default;
+$input-btn-font-family:       'Lato', sans-serif;
+$input-font-family:           'Josefin Sans', sans-serif;
+$btn-font-family:             'Lato', sans-serif;
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
